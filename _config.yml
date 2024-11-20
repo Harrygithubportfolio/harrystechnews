@@ -1,35 +1,26 @@
 # Site
-name: "Mediumish"
-title: "Mediumish"
-description: "Jekyll template, Medium styled, free for bloggers."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-baseurl: /mediumish-theme-jekyll
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+name: "Harry's Tech News"
+title: "Harry's Tech News"
+description: "Stay updated with the latest and greatest in technology!"
+logo: 'assets/images/logo.png'  # Update this if you have a custom logo
+favicon: 'assets/images/logo.png'  # Update this if you have a favicon
+baseurl: ""  # Keep empty if hosted at root on GitHub Pages (e.g., https://yourusername.github.io/)
+google_analytics: ""  # Replace with your Google Analytics tracking ID if you have one
+disqus: 'harrystechnews'  # Replace with your Disqus shortname for comments
+mailchimp-list: ""  # Remove or update if you plan to use Mailchimp for newsletters
 include: ["_pages"]
 permalink: /:title/
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+  harry:
+    name: Harry Graham
+    display_name: Harry Graham
+    avatar: 'assets/images/avatar.png'  # Replace with your avatar if available
+    email: your-email@example.com  # Add your email here
+    web: https://harrystechnews.com  # Replace with your domain
+    twitter: https://twitter.com/yourhandle  # Replace with your Twitter handle
+    description: "Tech enthusiast and blogger sharing insights on the latest innovations and trends in the tech world."
 
 # Plugins
 plugins:
@@ -48,7 +39,7 @@ jekyll-archives:
     category: '/category/:name/'
     
 # Pagination 
-paginate: 6
+paginate: 6  # Number of posts per page
 paginate_path: /page:num/
     
 # Other
@@ -61,12 +52,12 @@ kramdown:
     block:
       line_numbers: true
 
-# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
+# Adsense (if applicable)
+adsense: "disabled"  # Change to "enabled" if you want to activate Adsense
+adsense-data-ad-client: ""  # Replace with your Adsense client ID
+adsense-data-ad-slot: ""  # Replace with your Adsense slot ID
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+lazyimages: "enabled"  # Enable for faster page load
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
